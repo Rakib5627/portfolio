@@ -18,9 +18,9 @@ const Projects = () => {
 
        <SwiperSlide
             >
-                <div className="flex flex-col items-center mx-24 my-16">
+                <div className="flex flex-col items-center md:mx-24 my-16">
                     <img src={image1} alt="" />
-                    <p className="py-8">The website is about an electronics shop website with the six popular brands of world.</p>
+                    <p className="py-8 text-xs md:text-base">The website is about an electronics shop website with the six popular brands of world.</p>
                     <div className="flex gap-2">
                         <a href="https://github.com/Rakib5627/electro-tech-shop">
                         <button className="border-2 px-1 border-blue-950 rounded hover:bg-blue-950 hover:text-white">Code Link</button>
@@ -33,9 +33,9 @@ const Projects = () => {
             </SwiperSlide>
        <SwiperSlide
             >
-                <div className="flex flex-col items-center mx-24 my-16">
+                <div className="flex flex-col items-center md:mx-24 my-16">
                 <img src={image2} alt="" />
-                    <p className="py-8">Event Planner is about an event management website. Here organizes any type of social events like marriage , engagement , birthday parties etc.</p>
+                    <p className="py-8 text-xs md:text-base">Event Planner is about an event management website. Here organizes any type of social events like marriage , engagement , birthday parties etc.</p>
                     <div className="flex gap-2">
                         <a href="https://github.com/Rakib5627/event-planner">
                         <button className="border-2 px-1 border-blue-950 rounded hover:bg-blue-950 hover:text-white">Code Link</button>
@@ -48,9 +48,9 @@ const Projects = () => {
             </SwiperSlide>
        <SwiperSlide
             >
-                <div className="flex flex-col items-center mx-24 my-16">
+                <div className="flex flex-col items-center md:mx-24 my-16">
                 <img src={image3} alt="" />
-                    <p className="py-8">The website Hotel Grand is a sample website of a five star hotel. Here can be booked rooms and complete all the process.</p>
+                    <p className="py-8 text-xs md:text-base">The website Hotel Grand is a sample website of a five star hotel. Here can be booked rooms and complete all the process.</p>
                     <div className="flex gap-2">
                         <a href="https://github.com/Rakib5627/hotel-grand">
                         <button className="border-2 px-1 border-blue-950 rounded hover:bg-blue-950 hover:text-white">Code Link</button>

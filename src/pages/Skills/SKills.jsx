@@ -47,7 +47,7 @@ const SKills = () => {
                     </div>
                     
                     <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-left"
+                        <div data-aos="fade-right"
                             data-aos-duration="2000"
                             className='shadow-md p-4'>
                             <img className='w-32 mx-auto' src={img4} alt='Tailwind' />
@@ -56,7 +56,7 @@ const SKills = () => {
                     </div>
 
                     <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-left"
+                        <div data-aos="fade-right"
                             data-aos-duration="1500"
                             className='shadow-md p-4'>
                             <img className='w-32 mx-auto' src={img5} alt='Js' />
@@ -83,7 +83,7 @@ const SKills = () => {
                         </div>
                     </div>
                     <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-left"
+                        <div data-aos="fade-right"
                             data-aos-duration="2000"
                             className='shadow-md p-4'>
                             <img className='w-32 mx-auto rounded-full' src={img8} alt='MongoDB' />
@@ -92,7 +92,7 @@ const SKills = () => {
                     </div>
 
                     <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-left"
+                        <div data-aos="fade-right"
                             data-aos-duration="1500"
                             className='shadow-md p-4'>
                             <img className='w-32 mx-auto' src={img9} alt='Firebase' />
@@ -109,17 +109,10 @@ const SKills = () => {
                         </div>
                     </div>
 
-                    <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-right"
-                            data-aos-duration="1500"
-                            className='shadow-md p-4'>
-                            <img className='w-32 h-32 mx-auto' src={img11} alt='Next.js' />
-                            <p className='my-4'>Next.js</p>
-                        </div>
-                    </div>
+                    
 
                     <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-left"
+                        <div data-aos="fade-right"
                             data-aos-duration="2000"
                             className='shadow-md p-4'>
                             <img className='w-32 mx-auto' src={img12} alt='JSON Web Token' />
@@ -127,11 +120,19 @@ const SKills = () => {
                         </div>
                     </div>
                     <div className='hover:scale-110 duration-500'>
-                        <div data-aos="fade-left"
+                        <div data-aos="fade-right"
                             data-aos-duration="1500"
                             className='shadow-md p-4'>
                             <img className='w-32 h-32 mx-auto' src={img3} alt='Bootstrap' />
                             <p className='my-4'>Bootstrap</p>
+                        </div>
+                    </div>
+                    <div className='hover:scale-110 duration-500'>
+                        <div data-aos="fade-right"
+                            data-aos-duration="1500"
+                            className='shadow-md p-4'>
+                            <img className='w-32 h-32 mx-auto' src={img11} alt='Next.js' />
+                            <p className='my-4'>Next.js</p>
                         </div>
                     </div>
                     

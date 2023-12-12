@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
     return (
-        <div>
+        <div className="mx-2 max-w-5xl md:mx-auto">
             <div className="navbar bg=[#d9d9d9]">
                 <div className="navbar-start">
                     <div className="dropdown">

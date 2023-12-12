@@ -32,11 +32,13 @@ const Home = () => {
 
 
 
-            <div className="flex items-center mt-32 mx-2 max-w-5xl md:mx-auto pb-20 gap-20 text-blue-950">
-
-                <div className="flex-1 w-1/2">
-                    <p className="text-xl">
-                        I am a 22 years old Front End web
+            <div className="md:flex flex-row-reverse items-center mt-32 mx-2 max-w-5xl md:mx-auto pb-20 gap-20 text-blue-950">
+                <div>
+                    <img src={image} alt="" className="rounded-full w-72 h-80" />
+                </div>
+                <div className="md:flex-1 md:w-1/2 mt-5 md:mt-0 text-center md:text-left">
+                    <p className="text-sm md:text-xl">
+                        I am 22 years old Front End web
                         developer. Currently,
                         I am focusing on building
                         responsive web
@@ -44,13 +46,11 @@ const Home = () => {
                         learning Back End web
                         development.
                     </p>
-                    <p>
+                    <p className="text-sm md:text-base">
                         I am 3rd year student of B.Sc (Engineering) in Electrical and Electronic Engineering.
                     </p>
                 </div>
-                <div>
-                    <img src={image} alt="" className="rounded-full w-72 h-80" />
-                </div>
+                
             </div>
 
 
